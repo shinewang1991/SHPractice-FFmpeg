@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		141DC2B42269BE6100039A6A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 141DC2B32269BE6100039A6A /* main.c */; };
+		141DEADA2269C34100039A6A /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEAD22269C34100039A6A /* libavcodec.a */; };
+		141DEADB2269C34100039A6A /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEAD32269C34100039A6A /* libavutil.a */; };
+		141DEADC2269C34100039A6A /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEAD42269C34100039A6A /* libswresample.a */; };
+		141DEADD2269C34100039A6A /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEAD52269C34100039A6A /* libswscale.a */; };
+		141DEADE2269C34100039A6A /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEAD62269C34100039A6A /* libavformat.a */; };
+		141DEADF2269C34100039A6A /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEAD72269C34100039A6A /* libavfilter.a */; };
+		141DEAE02269C34100039A6A /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEAD82269C34100039A6A /* libavdevice.a */; };
+		141DEAE12269C34100039A6A /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DEAD92269C34100039A6A /* libpostproc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,15 @@
 /* Begin PBXFileReference section */
 		141DC2B02269BE6100039A6A /* SHPractice-FFmpeg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SHPractice-FFmpeg"; sourceTree = BUILT_PRODUCTS_DIR; };
 		141DC2B32269BE6100039A6A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		141DEAD22269C34100039A6A /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "../../../../usr/local/Cellar/ffmpeg/4.1.3-with-options/lib/libavcodec.a"; sourceTree = "<group>"; };
+		141DEAD32269C34100039A6A /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "../../../../usr/local/Cellar/ffmpeg/4.1.3-with-options/lib/libavutil.a"; sourceTree = "<group>"; };
+		141DEAD42269C34100039A6A /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = "../../../../usr/local/Cellar/ffmpeg/4.1.3-with-options/lib/libswresample.a"; sourceTree = "<group>"; };
+		141DEAD52269C34100039A6A /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "../../../../usr/local/Cellar/ffmpeg/4.1.3-with-options/lib/libswscale.a"; sourceTree = "<group>"; };
+		141DEAD62269C34100039A6A /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = "../../../../usr/local/Cellar/ffmpeg/4.1.3-with-options/lib/libavformat.a"; sourceTree = "<group>"; };
+		141DEAD72269C34100039A6A /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = "../../../../usr/local/Cellar/ffmpeg/4.1.3-with-options/lib/libavfilter.a"; sourceTree = "<group>"; };
+		141DEAD82269C34100039A6A /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = "../../../../usr/local/Cellar/ffmpeg/4.1.3-with-options/lib/libavdevice.a"; sourceTree = "<group>"; };
+		141DEAD92269C34100039A6A /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpostproc.a; path = "../../../../usr/local/Cellar/ffmpeg/4.1.3-with-options/lib/libpostproc.a"; sourceTree = "<group>"; };
+		141DEAE22269C58900039A6A /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141DEADA2269C34100039A6A /* libavcodec.a in Frameworks */,
+				141DEADB2269C34100039A6A /* libavutil.a in Frameworks */,
+				141DEADC2269C34100039A6A /* libswresample.a in Frameworks */,
+				141DEADD2269C34100039A6A /* libswscale.a in Frameworks */,
+				141DEADE2269C34100039A6A /* libavformat.a in Frameworks */,
+				141DEADF2269C34100039A6A /* libavfilter.a in Frameworks */,
+				141DEAE02269C34100039A6A /* libavdevice.a in Frameworks */,
+				141DEAE12269C34100039A6A /* libpostproc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +68,7 @@
 			children = (
 				141DC2B22269BE6100039A6A /* SHPractice-FFmpeg */,
 				141DC2B12269BE6100039A6A /* Products */,
+				141DEAA72269C26200039A6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +83,25 @@
 		141DC2B22269BE6100039A6A /* SHPractice-FFmpeg */ = {
 			isa = PBXGroup;
 			children = (
+				141DEAE22269C58900039A6A /* test.mp4 */,
 				141DC2B32269BE6100039A6A /* main.c */,
 			);
 			path = "SHPractice-FFmpeg";
+			sourceTree = "<group>";
+		};
+		141DEAA72269C26200039A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				141DEAD22269C34100039A6A /* libavcodec.a */,
+				141DEAD82269C34100039A6A /* libavdevice.a */,
+				141DEAD72269C34100039A6A /* libavfilter.a */,
+				141DEAD62269C34100039A6A /* libavformat.a */,
+				141DEAD32269C34100039A6A /* libavutil.a */,
+				141DEAD92269C34100039A6A /* libpostproc.a */,
+				141DEAD42269C34100039A6A /* libswresample.a */,
+				141DEAD52269C34100039A6A /* libswscale.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +283,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSE3H6NFMJ;
+				HEADER_SEARCH_PATHS = "\"/usr/local/Cellar/ffmpeg/4.1.3-with-options/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/ffmpeg/4.1.3-with-options/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -250,6 +297,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSE3H6NFMJ;
+				HEADER_SEARCH_PATHS = "\"/usr/local/Cellar/ffmpeg/4.1.3-with-options/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/ffmpeg/4.1.3-with-options/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
